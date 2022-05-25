@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Signin Template · Bootstrap v5.1</title>
+    <title>My Newsletter</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
 
@@ -51,22 +51,22 @@
 <body class="text-center">
 
     <main class="form-signin">
-        <form>
+        <form action="/" method="post">
             <img class="mb-4" src="./images/ghost-35852__340.webp" alt="" width="92" height="77">
             <h1 class="h3 mb-3 fw-normal">Sign up to my Newsletter</h1>
             
             <div class="form-floating">
-                <input type="text" class="form-control top" placeholder="First name">
+                <input type="text" class="form-control top" placeholder="First name" name="fname">
                 <label for="floatingPassword">First Name</label>
             </div>
 
             <div class="form-floating">
-                <input type="text" class="form-control middle" placeholder="Last name">
+                <input type="text" class="form-control middle" placeholder="Last name" name="lname">
                 <label for="floatingPassword">Last Name</label>
             </div>
 
             <div class="form-floating">
-                <input type="email" class="form-control bottom" id="floatingInput" placeholder="name@example.com">
+                <input type="email" class="form-control bottom" id="floatingInput" placeholder="name@example.com" name="email">
                 <label for="floatingInput">Email address</label>
             </div>
 
